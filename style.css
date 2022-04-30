@@ -1,0 +1,224 @@
+:root {
+    --primary-color: rgb(37, 142, 240);
+    --secondary-color: rgb(255, 255, 255);
+    --tre-color: rgb(224, 237, 245);
+}
+
+html {
+    font-size: 66.66%;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--tre-color);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    background: var(--primary-color);
+
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.btn-nav {
+    transition: 0.3s;
+    margin: 0 50px;
+}
+
+
+.btn-nav h1 {
+    color: var(--secondary-color);
+    transform: rotate(90deg);
+    font-size: 8rem;
+    margin: 0;
+    cursor: pointer;
+}
+
+.titleNav h1 {
+    color: var(--secondary-color);
+    font-size: 3rem;
+}
+
+.nav {
+    position: fixed;
+    width: 60%;
+    height: 100%;
+    left: -60%;
+    top: 120px;
+    transition: 0.3s;
+    background: var(--tre-color);
+}
+
+.nav ul {
+    width: 80%;
+
+    padding: 0;
+    margin: auto;
+}
+
+.nav ul li {
+
+
+    font-size: 2rem;
+
+    width: 100%;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+
+    list-style: none;
+    margin: 10% 0 0 0;
+    padding: 0;
+
+
+}
+
+.nav ul li:hover {
+
+    cursor: pointer;
+
+    color: var(--secondary-color);
+    background: var(--primary-color);
+}
+
+.nav_active {
+    left: 0;
+
+}
+
+.traslate_action {
+    transform: rotate(180deg);
+}
+
+.navActiveBtn {
+    transition: 0.3s;
+
+}
+
+
+.dashboard {
+    background: white;
+    padding: 0 10% 10% 10%;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    width: 90%;
+    margin: 10% auto;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.greycolor {
+    color: rgb(124, 122, 122);
+    font-size: 3rem;
+}
+
+#myChart {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+}
+
+.whiteTitle {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.ourVisitor {
+
+    font-size: 2rem;
+    width: 90%;
+    margin: auto;
+
+    background: white;
+    border-radius: 20px;
+
+    height: auto;
+}
+
+.textt {
+    padding: 10%;
+}
+
+.ourVisitor div canvas {
+    height: auto;
+    width: 90%;
+    margin: auto;
+
+    min-height: 400px;
+}
+
+.cards {
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+
+    display: flex;
+
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    background: white;
+}
+
+.card .text {
+    margin-left: 20%;
+}
+
+.card img {
+
+    left: 10px;
+    top: 10px;
+    position: absolute;
+    width: 10%;
+}
+
+.card div {
+
+    width: 40%;
+}
+
+.card div canvas {
+    color: white;
+}
+
+.pri {
+    background: purple;
+    color: white;
+}
+
+.seg {
+    background: orangered;
+    color: white;
+}
+
+.ter {
+    background: green;
+    color: white;
+}
