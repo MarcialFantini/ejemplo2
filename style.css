@@ -25,6 +25,8 @@ img {
 }
 
 .navbar {
+    position: fixed;
+
     background: var(--primary-color);
 
     width: 100%;
@@ -62,6 +64,7 @@ img {
     top: 120px;
     transition: 0.3s;
     background: var(--tre-color);
+    z-index: 40;
 }
 
 .nav ul {
